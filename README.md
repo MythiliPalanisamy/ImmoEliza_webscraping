@@ -56,10 +56,11 @@ We had gathered data concerning:
 <a name="completion"></a>
 ## 🏁 Completion
 
-- Project type  -  Group
-- Duration  -  5 days
-- Team Members  -  Fré Van Oers [LinkedIn](https://www.linkedin.com/in/frevanoers/) [Github](https://github.com/DeFre),
-                  Jonathan_Rab [LinkedIn](https://www.linkedin.com/in/jonathan-rabbi/) [Github](https://github.com/JonathanRabbi), 
-                  Mythili [LinkedIn](https://www.linkedin.com/in/mythili-aug/) [Github](https://github.com/MythiliPalanisamy)
+- Project type  :  Group
+- Duration  :  5 days
+- Team Members :   
+                - Fré Van Oers [LinkedIn](https://www.linkedin.com/in/frevanoers/) [Github](https://github.com/DeFre),  
+                - Jonathan_Rab [LinkedIn](https://www.linkedin.com/in/jonathan-rabbi/) [Github](https://github.com/JonathanRabbi),  
+                - Mythili [LinkedIn](https://www.linkedin.com/in/mythili-aug/) [Github](https://github.com/MythiliPalanisamy)
               
                             
