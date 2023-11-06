@@ -39,10 +39,10 @@ We focused on scraping the data from "Immoweb", a highly utilised real estate pl
 
 -> Used threading to speed up the collection
 
-### step 1 :  
+### Step 1 :  
 Scraped the urls of all the properties using `scrape_url_list.py`
 
-### step 2 :  
+### Step 2 :  
 Using `data_scrape.py` we gathered and stored the following data in a csv file:
 
 * Price
