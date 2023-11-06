@@ -2,7 +2,7 @@
 ## Table of contents
 1. [Introduction](#introduction) 📌
 2. [Installation](#installation) 🔧  
-3. [Process](#process) 🚀
+3. [Pipeline](#pipeline) 🚀
 4. [Completion](#completion) 🏁
 
 <a name="introduction"></a>
@@ -21,15 +21,17 @@ A fictional real estate company "ImmoEliza" wants to create a Machine Learning m
 [![regex](https://img.shields.io/badge/regex-indigo)](https://pypi.org/project/regex/)
 [![threadpool_executor](https://img.shields.io/badge/threadpool_executor-0.2.2-purple)](https://pypi.org/project/ThreadPoolExecutorPlus/)
 
-* clone the repository
-* install the requirements
-* run `scrape_url` from `src` to get the list of url
-* run `data_scrape`from `src` to get the data from url list 
+* Clone the repository
+* Install the requirements with `pip install <module>`
+* Run `scrape_url` from `src` to get the list of url
+* Run `data_scrape`from `src` to get the data from url list 
 
-<a name="process"></a>
-## 🚀 Process
+<a name="pipeline"></a>
+## 🚀 Pipeline
 
 We focused on scraping the data from "Immoweb", a highly utilised real estate platform in Belgium to list new available property.
+
+### Requirements:  
 
 -> Contains a minimum of 10,000 inputs
 
@@ -37,7 +39,12 @@ We focused on scraping the data from "Immoweb", a highly utilised real estate pl
 
 -> Used threading to speed up the collection
 
-We had gathered data concerning:
+### step 1 :  
+Scraped the urls of all the properties using `scrape_url_list.py`
+
+### step 2 :  
+Using `data_scrape.py` we gathered and stored the following data in a csv file:
+
 * Price
 * Address
 * Building Condition
